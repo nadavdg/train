@@ -32,9 +32,9 @@ if __name__ == "__main__":
     """
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--class-list', default='/home/nadav/Downloads/task_day light oranges ldc-2025_01_16_08_47_16-coco 1.0/class.names')
-    parser.add_argument('--data-dir', default='/home/nadav/Downloads/task_day light oranges ldc-2025_01_16_08_47_16-coco 1.0/data')
-    parser.add_argument('--output-dir', default='/home/nadav/Downloads/task_day light oranges ldc-2025_01_16_08_47_16-coco 1.0/output')
+    parser.add_argument('--class-list', default='/home/nadav/Downloads/orangescoco/class.names')
+    parser.add_argument('--data-dir', default='/home/nadav/Downloads/orangescoco/data')
+    parser.add_argument('--output-dir', default='/home/nadav/Downloads/orangescoco/output')
     parser.add_argument('--device', default='cuda')
     parser.add_argument('--learning-rate', default=0.00025)
     parser.add_argument('--batch-size', default=3)
